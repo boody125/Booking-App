@@ -67,7 +67,7 @@ async function uploadToS3(path, originalFilename,mimetype){
     
 }
 
-app.get('/test',(req,res)=>{
+app.get('/api/test',(req,res)=>{
     res.json({message:"hello world"})
 })
 
